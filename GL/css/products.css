@@ -1,0 +1,69 @@
+.products-container {
+  padding: 5px;
+}
+
+.products {
+  margin: 10px;
+}
+
+.product {
+  background-color: lavender;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 4s;
+}
+
+.products-heading {
+  padding: 20px 0;
+}
+
+.product:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.flex-ctn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-title {
+  padding: 5px 0;
+}
+
+.product-img {
+  width: 250px;
+}
+
+.product-img > img {
+  width: 100%;
+  height: 200px;
+}
+
+.diabetes-care {
+  margin-top: 50px;
+}
+
+.product-price {
+  padding: 10px;
+  color: blue;
+}
+
+.product-price > p {
+  margin-bottom: 5px;
+}
+
+.product-action button {
+  display: block;
+  padding: 5px;
+  background-color: lightskyblue;
+  color: chocolate;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.product-action button:active {
+  background-color: rgb(250, 234, 230);
+  border-color: rgb(0, 255, 76);
+}
